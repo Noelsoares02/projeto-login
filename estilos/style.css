@@ -22,12 +22,26 @@ main{
     width: 100vw;
     }
     section#login{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
+        overflow: hidden;
+
         background-color: white;
         width: 250px;
         height: 500px;
         border-radius:20px;;
+    }
+    section#login > div#imagem{
+        display: block;
+        background: #5f2c82 url(../imagens/bilden-fundo.jpg) no-repeat;
+        background-position: left bottom;
+        height: 200px; 
+        background-size: cover;
+    }
+    section#login > div#formulario{
+        display: block;
+        padding: 10px;
     }
